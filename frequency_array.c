@@ -17,35 +17,8 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        if (a[i] == 0)
-        {
-            fre[0]++;
-        }
-        else if (a[i] == 1)
-        {
-            fre[1]++;
-        }
-        else if (a[i] == 2)
-        {
-            fre[2]++;
-        }
-        else if (a[i] == 3)
-        {
-            fre[3]++;
-        }
-        else if (a[i] == 4)
-        {
-            fre[4]++;
-        }
-        else if (a[i] == 5)
-        {
-            fre[5]++;
-        }
-        else if (a[i] == 6)
-        {
-            fre[6]++;
-        }
-        }
+        fre[a[i]];
+    }
 
     printf("%d -> %d\n", 0, fre[0]);
     printf("%d -> %d\n", 1, fre[1]);
@@ -54,6 +27,7 @@ int main()
     printf("%d -> %d\n", 4, fre[4]);
     printf("%d -> %d\n", 5, fre[5]);
     printf("%d -> %d\n", 6, fre[6]);
+
 
     return 0;
 }
